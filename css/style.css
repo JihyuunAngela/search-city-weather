@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+.block {
+  display: inline-block;
+  margin: 10px 0;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  max-width: 500px;
+}
+
+.aqi {
+  background: rgb(123, 222, 123);
+  color: rgb(0, 87, 0);
+  font-weight: bolder;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+.three-columns {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
